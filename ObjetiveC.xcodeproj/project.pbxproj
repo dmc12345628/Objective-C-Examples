@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		237043F62004BFA500A1D242 /* Exercice 1.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043F52004BFA500A1D242 /* Exercice 1.m */; };
 		237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043F92004C2E400A1D242 /* Exercice 2.m */; };
+		237043FE2004C65700A1D242 /* Exercice 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043FD2004C65700A1D242 /* Exercice 3.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,8 @@
 		237043F72004BFBB00A1D242 /* Exercice 1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 1.h"; sourceTree = "<group>"; };
 		237043F92004C2E400A1D242 /* Exercice 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 2.m"; sourceTree = "<group>"; };
 		237043FB2004C2F200A1D242 /* Exercice 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 2.h"; sourceTree = "<group>"; };
+		237043FD2004C65700A1D242 /* Exercice 3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 3.m"; sourceTree = "<group>"; };
+		237043FF2004C67600A1D242 /* Exercice 3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 3.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +64,7 @@
 		23673FF81FE117A0006B0C68 /* ObjetiveC */ = {
 			isa = PBXGroup;
 			children = (
+				237043FC2004C62C00A1D242 /* Exercice 3 */,
 				237043F82004C1FC00A1D242 /* Exercice 2 */,
 				237043F42004BF2600A1D242 /* Exercice 1 */,
 			);
@@ -83,6 +87,15 @@
 				237043FB2004C2F200A1D242 /* Exercice 2.h */,
 			);
 			name = "Exercice 2";
+			sourceTree = "<group>";
+		};
+		237043FC2004C62C00A1D242 /* Exercice 3 */ = {
+			isa = PBXGroup;
+			children = (
+				237043FD2004C65700A1D242 /* Exercice 3.m */,
+				237043FF2004C67600A1D242 /* Exercice 3.h */,
+			);
+			name = "Exercice 3";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -143,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				237043F62004BFA500A1D242 /* Exercice 1.m in Sources */,
+				237043FE2004C65700A1D242 /* Exercice 3.m in Sources */,
 				237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
