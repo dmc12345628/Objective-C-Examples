@@ -20,7 +20,7 @@
     num2 = temp;
 }
 @end
-
+/*
 int main() {
     int a = 100;
     int b = 200;
@@ -36,4 +36,4 @@ int main() {
     NSLog(@"After swap, value of b : %d\n", b);
     
     return 0;
-}
+}*/
