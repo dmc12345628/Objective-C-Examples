@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		23673FFA1FE117A0006B0C68 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 23673FF91FE117A0006B0C68 /* main.m */; };
+		237043F62004BFA500A1D242 /* Exercice 1.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043F52004BFA500A1D242 /* Exercice 1.m */; };
+		237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043F92004C2E400A1D242 /* Exercice 2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		23673FF61FE117A0006B0C68 /* ObjetiveC */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ObjetiveC; sourceTree = BUILT_PRODUCTS_DIR; };
-		23673FF91FE117A0006B0C68 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		237043F52004BFA500A1D242 /* Exercice 1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 1.m"; sourceTree = "<group>"; };
+		237043F72004BFBB00A1D242 /* Exercice 1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 1.h"; sourceTree = "<group>"; };
+		237043F92004C2E400A1D242 /* Exercice 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 2.m"; sourceTree = "<group>"; };
+		237043FB2004C2F200A1D242 /* Exercice 2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 2.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,28 @@
 		23673FF81FE117A0006B0C68 /* ObjetiveC */ = {
 			isa = PBXGroup;
 			children = (
-				23673FF91FE117A0006B0C68 /* main.m */,
+				237043F82004C1FC00A1D242 /* Exercice 2 */,
+				237043F42004BF2600A1D242 /* Exercice 1 */,
 			);
 			path = ObjetiveC;
+			sourceTree = "<group>";
+		};
+		237043F42004BF2600A1D242 /* Exercice 1 */ = {
+			isa = PBXGroup;
+			children = (
+				237043F52004BFA500A1D242 /* Exercice 1.m */,
+				237043F72004BFBB00A1D242 /* Exercice 1.h */,
+			);
+			name = "Exercice 1";
+			sourceTree = "<group>";
+		};
+		237043F82004C1FC00A1D242 /* Exercice 2 */ = {
+			isa = PBXGroup;
+			children = (
+				237043F92004C2E400A1D242 /* Exercice 2.m */,
+				237043FB2004C2F200A1D242 /* Exercice 2.h */,
+			);
+			name = "Exercice 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,7 +142,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23673FFA1FE117A0006B0C68 /* main.m in Sources */,
+				237043F62004BFA500A1D242 /* Exercice 1.m in Sources */,
+				237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -248,6 +272,7 @@
 				23673FFF1FE117A0006B0C68 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
