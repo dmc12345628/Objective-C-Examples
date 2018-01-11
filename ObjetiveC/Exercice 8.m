@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 8.h"
-
+/*
 int main() {
     double balance[5] = {1000.0, 2.0, 3.4, 17.0, 50.0};
     double *p;
@@ -25,4 +25,4 @@ int main() {
     }
     
     return 0;
-}
+}*/
