@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 10.h"
-
+/*
 @interface SampleClass:NSObject
 
 - (double) getAverage:(int *)arr ofSize:(int) size;
@@ -43,3 +43,4 @@ int main() {
     
     return 0;
 }
+*/
