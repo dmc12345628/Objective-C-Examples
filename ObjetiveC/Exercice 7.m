@@ -6,8 +6,8 @@
 //  Copyright © 2018 local192. All rights reserved.
 //
 
-#include "Exercice 6.h"
-
+#include "Exercice 7.h"
+/*
 @interface SampleClass:NSObject
 
 - (int *) getRamdom;
@@ -41,4 +41,4 @@ int main() {
     }
     
     return 0;
-}
+}*/
