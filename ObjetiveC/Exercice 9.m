@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 9.h"
-
+/*
 @interface SampleClass:NSObject
 
 - (void) getSeconds:(int *) par;
@@ -30,4 +30,4 @@ int main() {
     [sampleClass getSeconds:&sec];
     
     NSLog(@"Number of seconds: %d\n", sec);
-}
+}*/
