@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 4.h"
-
+/*
 @interface SampleClass:NSObject
 
 - (NSNumber *) multiplyA:(NSNumber *)a withB:(NSNumber *) b;
@@ -37,4 +37,4 @@ int main() {
     }
     
     return 0;
-}
+}*/
