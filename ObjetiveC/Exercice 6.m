@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 6.h"
-
+/*
 @interface SampleClass:NSObject
 
 - (double) getAverage:(int []) arr andSize:(int) size;
@@ -42,4 +42,4 @@ int main() {
     NSLog(@"Average value is: %f", avg);
     
     return 0;
-}
+}*/
