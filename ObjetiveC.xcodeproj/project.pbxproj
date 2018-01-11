@@ -11,7 +11,6 @@
 		237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043F92004C2E400A1D242 /* Exercice 2.m */; };
 		237043FE2004C65700A1D242 /* Exercice 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 237043FD2004C65700A1D242 /* Exercice 3.m */; };
 		237044022004C67600A1D242 /* Exercice 4.m in Sources */ = {isa = PBXBuildFile; fileRef = 237044012004C67600A1D242 /* Exercice 4.m */; };
-		23D5546C2007B3540090FC0A /* Exercice 5.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D5546B2007B3540090FC0A /* Exercice 5.m */; };
 		23D554702007B3600090FC0A /* Exercice 6.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D5546F2007B3600090FC0A /* Exercice 6.m */; };
 		23D554752007B3600090FC0A /* Exercice 7.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D554742007B3600090FC0A /* Exercice 7.m */; };
 /* End PBXBuildFile section */
@@ -38,8 +37,6 @@
 		237043FF2004C67600A1D242 /* Exercice 3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 3.h"; sourceTree = "<group>"; };
 		237044012004C67600A1D242 /* Exercice 4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 4.m"; sourceTree = "<group>"; };
 		237044032004C67600A1D242 /* Exercice 4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 4.h"; sourceTree = "<group>"; };
-		23D5546B2007B3540090FC0A /* Exercice 5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 5.m"; sourceTree = "<group>"; };
-		23D5546D2007B3600090FC0A /* Exercice 5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 5.h"; sourceTree = "<group>"; };
 		23D5546F2007B3600090FC0A /* Exercice 6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 6.m"; sourceTree = "<group>"; };
 		23D554712007B3600090FC0A /* Exercice 6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 6.h"; sourceTree = "<group>"; };
 		23D554742007B3600090FC0A /* Exercice 7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 7.m"; sourceTree = "<group>"; };
@@ -78,7 +75,6 @@
 			children = (
 				23D554732007B3600090FC0A /* Exercice 7 */,
 				23D5546E2007B3600090FC0A /* Exercice 6 */,
-				23D5546A2007B33A0090FC0A /* Exercice 5 */,
 				237044002004C67600A1D242 /* Exercice 4 */,
 				237043FC2004C62C00A1D242 /* Exercice 3 */,
 				237043F82004C1FC00A1D242 /* Exercice 2 */,
@@ -121,15 +117,6 @@
 				237044032004C67600A1D242 /* Exercice 4.h */,
 			);
 			name = "Exercice 4";
-			sourceTree = "<group>";
-		};
-		23D5546A2007B33A0090FC0A /* Exercice 5 */ = {
-			isa = PBXGroup;
-			children = (
-				23D5546B2007B3540090FC0A /* Exercice 5.m */,
-				23D5546D2007B3600090FC0A /* Exercice 5.h */,
-			);
-			name = "Exercice 5";
 			sourceTree = "<group>";
 		};
 		23D5546E2007B3600090FC0A /* Exercice 6 */ = {
@@ -209,7 +196,6 @@
 			files = (
 				237043F62004BFA500A1D242 /* Exercice 1.m in Sources */,
 				23D554702007B3600090FC0A /* Exercice 6.m in Sources */,
-				23D5546C2007B3540090FC0A /* Exercice 5.m in Sources */,
 				23D554752007B3600090FC0A /* Exercice 7.m in Sources */,
 				237043FE2004C65700A1D242 /* Exercice 3.m in Sources */,
 				237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */,
