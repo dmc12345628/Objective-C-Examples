@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 11.h"
-
+/*
 struct Books {
     __unsafe_unretained NSString *title;
     __unsafe_unretained NSString *author;
@@ -41,3 +41,4 @@ int main() {
     NSLog(@"subject : %@\n", book2.subject);
     NSLog(@"id : %d\n", book2.id);
 }
+*/
