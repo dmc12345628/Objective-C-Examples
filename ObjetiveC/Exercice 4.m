@@ -10,7 +10,7 @@
 
 @interface SampleClass:NSObject
 
-- (NSNumber *)multiplyA:(NSNumber *)a withB:(NSNumber *)b;
+- (NSNumber *) multiplyA:(NSNumber *)a withB:(NSNumber *) b;
 
 @end
 
@@ -27,7 +27,14 @@
 @end
 
 int main() {
-    NSAutoreleasePool * pool = [[NSAutoreleasePool alloc]init];
+    @autoreleasepool {
+    	SampleClass *sampleClass = [[SampleClass alloc] init];
+    	NSNumber *a = [NSNumber numberWithFloat:10.5];
+        NSNumber *b = [NSNumber numberWithFloat:10.0];
+        NSNumber *result = [sampleClass multiplyA:a withB:b];
+        NSString *resultString = [result stringValue];
+        NSLog(@"The product is %@", resultString);
+    }
     
     return 0;
 }

@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 1.h"
-
+/*
 @interface SampleClass:NSObject
 - (void)sampleMethod;
 @end
@@ -17,7 +17,7 @@
     NSLog(@"Hello, World! \n");
 }
 @end
-/*
+
 int main() {
     SampleClass *sampleClass = [[SampleClass alloc] init];
     [sampleClass sampleMethod];

@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 2.h"
-
+/*
 @interface SampleClass:NSObject
 - (void) swap:(int)num1 andNum2:(int)num2;
 @end
@@ -20,7 +20,7 @@
     num2 = temp;
 }
 @end
-/*
+
 int main() {
     int a = 100;
     int b = 200;
