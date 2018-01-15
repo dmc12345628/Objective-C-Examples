@@ -7,60 +7,72 @@
 //
 
 #include "Exercice 5.h"
+/*
+struct RandomNumbersResult {
+    double total;
+    double avg;
+    double standardDeviation;
+};
 
 @interface SampleClass:NSObject
 
-- (RandomNumbersResult) generateurNumerosRandom;
-- (int) getRandomBetween:(int)from to:(int)to;
-- (double) getAvg:(NSArray *) array;
-- (NSNumber *) deviationStandardOf:(NSArray*)array;
-- (NSNumber *)meanOf:(NSArray *)array;
+- (struct RandomNumbersResult *) generateurNumerosRandom;
+- (NSNumber *) getRandomBetween:(int)from to:(int)to;
+- (NSNumber *) getAvg:(NSMutableArray *) array;
+- (NSNumber *) getDeviationStandardOf:(NSMutableArray*)array;
+- (NSNumber *) getTotal:(NSMutableArray *) array;
+- (NSNumber *) meanOf:(NSMutableArray *)array;
 
 @end
 
 @implementation SampleClass
 
-typedef struct {
-    double total;
-    double avg;
-    double standardDeviation;
-} RandomNumbersResult;
-
-- (RandomNumbersResult) generateurNumerosRandom {
-    struct RandomNumbersResult result;
-    NSArray *numbers = [[NSArray alloc] init];
+- (struct RandomNumbersResult *) generateurNumerosRandom {
+	struct RandomNumbersResult result;
+    NSMutableArray *numbers = [[NSMutableArray alloc] init];
     
     for (int i = 0; i < 5; i++) {
-        [numbers setValue:[self getRandomBetween:1 to:50] forKey:[NSString stringWithFormat:@"%d", i]];
-        [numbers setVa
-        NSLog(@"numbers[%d] = %@", i, [numbers objectAtIndex:i]);
+		[numbers addObject:[self getRandomBetween:1 to:50]];
+        NSLog(@"numbers[%d] = %d", i, [[numbers objectAtIndex:i] intValue] );
     }
-    
-    NSNumber *deviationStandard = [self deviationStandardOf:numbers];
-    
-    return result;
+	    
+	result.total = [[self getTotal:numbers] doubleValue];
+	result.avg = [[self getAvg:numbers] doubleValue];
+	result.standardDeviation = [[self getDeviationStandardOf:numbers] doubleValue];
+	
+    return &result;
 }
 
-- (nullable int *) getRandomBetween:(int)from to:(int)to {
-    int *random = (int)from + arc4random() % (to - from + 1);
-    return random;
+- (NSNumber *) getRandomBetween:(int)from to:(int)to {
+    return [NSNumber numberWithInt: from + arc4random() % (to - from + 1)];
 }
 
-- (double)getAvg:(NSArray *)array {
+- (NSNumber *) getTotal:(NSMutableArray *) array {
+	double sum = 0;
+	double arrayCount = [array count];
+	
+	for (int i = 0; i <	arrayCount; i++) {
+		sum = sum + [[array objectAtIndex:i] intValue];
+	}
+	
+	return [NSNumber numberWithDouble:sum];
+}
+
+- (NSNumber *)getAvg:(NSMutableArray *)array {
     double avg;
     double sum = 0;
     double arrayCount = [array count];
     
     for (int i = 0; i < arrayCount; ++i) {
-        sum += [array[i] doubleValue];
+		sum = sum + [[array objectAtIndex:i] intValue];
     }
     
     avg = sum / arrayCount;
     
-    return avg;
+    return [NSNumber numberWithDouble:avg];
 }
 
-- (NSNumber *)deviationStandardOf:(NSArray *)array {
+- (NSNumber *) getDeviationStandardOf:(NSMutableArray *)array {
     if(![array count]) return nil;
     
     double mean = [[self meanOf:array] doubleValue];
@@ -76,7 +88,7 @@ typedef struct {
     return [NSNumber numberWithDouble:sqrt(sumOfSquaredDifferences / [array count])];
 }
 
-- (NSNumber *)meanOf:(NSArray *)array
+- (NSNumber *)meanOf:(NSMutableArray *)array
 {
     double runningTotal = 0.0;
     
@@ -90,3 +102,15 @@ typedef struct {
 
 @end
 
+int main() {
+	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+	
+	SampleClass *sampleClass = [[SampleClass alloc] init];
+	struct RandomNumbersResult *result = [sampleClass generateurNumerosRandom];
+	
+	NSLog(@"Total : %d", result->total);
+	
+	[pool drain];
+	return 0;
+}
+*/
