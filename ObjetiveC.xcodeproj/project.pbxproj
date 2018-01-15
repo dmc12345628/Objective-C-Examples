@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -18,6 +18,9 @@
 		23C08D042007C6580057A9D4 /* Exercice 5.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C08D032007C6580057A9D4 /* Exercice 5.m */; };
 		23D554702007B3600090FC0A /* Exercice 6.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D5546F2007B3600090FC0A /* Exercice 6.m */; };
 		23D554752007B3600090FC0A /* Exercice 7.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D554742007B3600090FC0A /* Exercice 7.m */; };
+		72AED44E200D314B00A6E42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AED44D200D314A00A6E42B /* Foundation.framework */; };
+		72AED453200D318F00A6E42B /* Exercice 20.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED452200D318F00A6E42B /* Exercice 20.m */; };
+		72AED458200D368900A6E42B /* Exercice 12.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED457200D368900A6E42B /* Exercice 12.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -56,6 +59,11 @@
 		23D554712007B3600090FC0A /* Exercice 6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 6.h"; sourceTree = "<group>"; };
 		23D554742007B3600090FC0A /* Exercice 7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 7.m"; sourceTree = "<group>"; };
 		23D554762007B3600090FC0A /* Exercice 7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 7.h"; sourceTree = "<group>"; };
+		72AED44D200D314A00A6E42B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		72AED451200D318F00A6E42B /* Exercice 20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 20.h"; sourceTree = "<group>"; };
+		72AED452200D318F00A6E42B /* Exercice 20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 20.m"; sourceTree = "<group>"; };
+		72AED456200D368900A6E42B /* Exercice 12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 12.h"; sourceTree = "<group>"; };
+		72AED457200D368900A6E42B /* Exercice 12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 12.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				72AED44E200D314B00A6E42B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +81,7 @@
 		23673FED1FE117A0006B0C68 = {
 			isa = PBXGroup;
 			children = (
+				72AED44D200D314A00A6E42B /* Foundation.framework */,
 				23673FF81FE117A0006B0C68 /* ObjetiveC */,
 				23673FF71FE117A0006B0C68 /* Products */,
 			);
@@ -88,6 +98,8 @@
 		23673FF81FE117A0006B0C68 /* ObjetiveC */ = {
 			isa = PBXGroup;
 			children = (
+				72AED455200D367300A6E42B /* Exercice 12 */,
+				72AED450200D316100A6E42B /* Exercice 20 */,
 				23C08CFE2007BDEC0057A9D4 /* Exercice 11 */,
 				23C08CFA2007B8480057A9D4 /* Exercice 10 */,
 				23C08CF62007B3AE0057A9D4 /* Exercice 9 */,
@@ -202,6 +214,24 @@
 			name = "Exercice 7";
 			sourceTree = "<group>";
 		};
+		72AED450200D316100A6E42B /* Exercice 20 */ = {
+			isa = PBXGroup;
+			children = (
+				72AED451200D318F00A6E42B /* Exercice 20.h */,
+				72AED452200D318F00A6E42B /* Exercice 20.m */,
+			);
+			name = "Exercice 20";
+			sourceTree = "<group>";
+		};
+		72AED455200D367300A6E42B /* Exercice 12 */ = {
+			isa = PBXGroup;
+			children = (
+				72AED456200D368900A6E42B /* Exercice 12.h */,
+				72AED457200D368900A6E42B /* Exercice 12.m */,
+			);
+			name = "Exercice 12";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -238,8 +268,7 @@
 				};
 			};
 			buildConfigurationList = 23673FF11FE117A0006B0C68 /* Build configuration list for PBXProject "ObjetiveC" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			compatibilityVersion = "Xcode 3.1";
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -270,6 +299,8 @@
 				23C08D002007BE030057A9D4 /* Exercice 11.m in Sources */,
 				23C08D042007C6580057A9D4 /* Exercice 5.m in Sources */,
 				237044022004C67600A1D242 /* Exercice 4.m in Sources */,
+				72AED453200D318F00A6E42B /* Exercice 20.m in Sources */,
+				72AED458200D368900A6E42B /* Exercice 12.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -317,10 +348,10 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = macosx;
+				SDKROOT = macosx10.5;
 			};
 			name = Debug;
 		};

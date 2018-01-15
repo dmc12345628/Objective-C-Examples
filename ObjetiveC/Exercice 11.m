@@ -8,13 +8,6 @@
 
 #include "Exercice 11.h"
 /*
-struct Books {
-    __unsafe_unretained NSString *title;
-    __unsafe_unretained NSString *author;
-    __unsafe_unretained NSString *subject;
-    int id;
-};
-
 int main() {
     struct Books book1;
     struct Books book2;

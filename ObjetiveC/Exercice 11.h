@@ -6,9 +6,11 @@
 //  Copyright © 2018 local192. All rights reserved.
 //
 
-#ifndef Exercice_11_h
-#define Exercice_11_h
-
 #import <Foundation/Foundation.h>
-
-#endif /* Exercice_11_h */
+/*
+struct Books {
+    NSString *title;
+    NSString *author;
+    NSString *subject;
+    int id;
+};*/
