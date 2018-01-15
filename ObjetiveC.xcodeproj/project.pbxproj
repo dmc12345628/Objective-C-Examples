@@ -21,6 +21,8 @@
 		72AED44E200D314B00A6E42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AED44D200D314A00A6E42B /* Foundation.framework */; };
 		72AED453200D318F00A6E42B /* Exercice 20.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED452200D318F00A6E42B /* Exercice 20.m */; };
 		72AED458200D368900A6E42B /* Exercice 12.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED457200D368900A6E42B /* Exercice 12.m */; };
+		72AED51C200D451C00A6E42B /* Exercice 14.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED51B200D451C00A6E42B /* Exercice 14.m */; };
+		72AED521200D459600A6E42B /* Exercice 13.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED520200D459600A6E42B /* Exercice 13.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +66,10 @@
 		72AED452200D318F00A6E42B /* Exercice 20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 20.m"; sourceTree = "<group>"; };
 		72AED456200D368900A6E42B /* Exercice 12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 12.h"; sourceTree = "<group>"; };
 		72AED457200D368900A6E42B /* Exercice 12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 12.m"; sourceTree = "<group>"; };
+		72AED51A200D451C00A6E42B /* Exercice 14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 14.h"; sourceTree = "<group>"; };
+		72AED51B200D451C00A6E42B /* Exercice 14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 14.m"; sourceTree = "<group>"; };
+		72AED51F200D459600A6E42B /* Exercice 13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 13.h"; sourceTree = "<group>"; };
+		72AED520200D459600A6E42B /* Exercice 13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 13.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +104,8 @@
 		23673FF81FE117A0006B0C68 /* ObjetiveC */ = {
 			isa = PBXGroup;
 			children = (
+				72AED51E200D458500A6E42B /* Exercice 13 */,
+				72AED51D200D452100A6E42B /* Exercice 14 */,
 				72AED455200D367300A6E42B /* Exercice 12 */,
 				72AED450200D316100A6E42B /* Exercice 20 */,
 				23C08CFE2007BDEC0057A9D4 /* Exercice 11 */,
@@ -232,6 +240,24 @@
 			name = "Exercice 12";
 			sourceTree = "<group>";
 		};
+		72AED51D200D452100A6E42B /* Exercice 14 */ = {
+			isa = PBXGroup;
+			children = (
+				72AED51A200D451C00A6E42B /* Exercice 14.h */,
+				72AED51B200D451C00A6E42B /* Exercice 14.m */,
+			);
+			name = "Exercice 14";
+			sourceTree = "<group>";
+		};
+		72AED51E200D458500A6E42B /* Exercice 13 */ = {
+			isa = PBXGroup;
+			children = (
+				72AED51F200D459600A6E42B /* Exercice 13.h */,
+				72AED520200D459600A6E42B /* Exercice 13.m */,
+			);
+			name = "Exercice 13";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -301,6 +327,8 @@
 				237044022004C67600A1D242 /* Exercice 4.m in Sources */,
 				72AED453200D318F00A6E42B /* Exercice 20.m in Sources */,
 				72AED458200D368900A6E42B /* Exercice 12.m in Sources */,
+				72AED51C200D451C00A6E42B /* Exercice 14.m in Sources */,
+				72AED521200D459600A6E42B /* Exercice 13.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

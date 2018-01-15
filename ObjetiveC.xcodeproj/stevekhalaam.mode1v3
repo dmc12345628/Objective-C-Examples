@@ -265,9 +265,8 @@
 							<array>
 								<string>23673FED1FE117A0006B0C68</string>
 								<string>23673FF81FE117A0006B0C68</string>
-								<string>72AED455200D367300A6E42B</string>
-								<string>72AED450200D316100A6E42B</string>
-								<string>23C08CFE2007BDEC0057A9D4</string>
+								<string>72AED4CF200D3CB600A6E42B</string>
+								<string>23C08D022007C6380057A9D4</string>
 								<string>1C37FABC05509CD000000102</string>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
@@ -317,7 +316,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CE0B20306471E060097A5F4</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>Exercice 12.m</string>
+								<string>Exercice 14.m</string>
 								<key>PBXSplitModuleInNavigatorKey</key>
 								<dict>
 									<key>Split0</key>
@@ -325,20 +324,22 @@
 										<key>PBXProjectModuleGUID</key>
 										<string>1CE0B20406471E060097A5F4</string>
 										<key>PBXProjectModuleLabel</key>
-										<string>Exercice 12.m</string>
+										<string>Exercice 14.m</string>
 										<key>_historyCapacity</key>
 										<integer>20</integer>
 										<key>bookmark</key>
-										<string>72AED4C4200D3B0900A6E42B</string>
+										<string>72AED50F200D450600A6E42B</string>
 										<key>history</key>
 										<array>
-											<string>72AED47D200D3B0900A6E42B</string>
-											<string>72AED47E200D3B0900A6E42B</string>
-											<string>72AED47F200D3B0900A6E42B</string>
-											<string>72AED480200D3B0900A6E42B</string>
 											<string>72AED481200D3B0900A6E42B</string>
-											<string>72AED482200D3B0900A6E42B</string>
-											<string>72AED483200D3B0900A6E42B</string>
+											<string>72AED4F6200D450600A6E42B</string>
+											<string>72AED4F7200D450600A6E42B</string>
+											<string>72AED4F8200D450600A6E42B</string>
+											<string>72AED4F9200D450600A6E42B</string>
+											<string>72AED4FA200D450600A6E42B</string>
+											<string>72AED4FB200D450600A6E42B</string>
+											<string>72AED4FC200D450600A6E42B</string>
+											<string>72AED4FD200D450600A6E42B</string>
 										</array>
 										<key>prevStack</key>
 										<array>
@@ -406,6 +407,23 @@
 											<string>72AED4C1200D3B0900A6E42B</string>
 											<string>72AED4C2200D3B0900A6E42B</string>
 											<string>72AED4C3200D3B0900A6E42B</string>
+											<string>72AED4FE200D450600A6E42B</string>
+											<string>72AED4FF200D450600A6E42B</string>
+											<string>72AED500200D450600A6E42B</string>
+											<string>72AED501200D450600A6E42B</string>
+											<string>72AED502200D450600A6E42B</string>
+											<string>72AED503200D450600A6E42B</string>
+											<string>72AED504200D450600A6E42B</string>
+											<string>72AED505200D450600A6E42B</string>
+											<string>72AED506200D450600A6E42B</string>
+											<string>72AED507200D450600A6E42B</string>
+											<string>72AED508200D450600A6E42B</string>
+											<string>72AED509200D450600A6E42B</string>
+											<string>72AED50A200D450600A6E42B</string>
+											<string>72AED50B200D450600A6E42B</string>
+											<string>72AED50C200D450600A6E42B</string>
+											<string>72AED50D200D450600A6E42B</string>
+											<string>72AED50E200D450600A6E42B</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -599,10 +617,11 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>72AED4C8200D3B0900A6E42B</string>
-		<string>72AED45B200D372300A6E42B</string>
+		<string>72AED510200D450600A6E42B</string>
+		<string>72AED511200D450600A6E42B</string>
 		<string>1CD10A99069EF8BA00B06720</string>
 		<string>1C78EAAD065D492600B07095</string>
+		<string>72AED45B200D372300A6E42B</string>
 		<string>/Users/stevekhalaam/Documents/DMC/Objective-C-Examples/ObjetiveC.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -696,7 +715,7 @@
 			<key>WindowToolGUID</key>
 			<string>72AED45B200D372300A6E42B</string>
 			<key>WindowToolIsVisible</key>
-			<false/>
+			<true/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

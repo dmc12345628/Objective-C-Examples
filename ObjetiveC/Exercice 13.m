@@ -1,21 +1,21 @@
 //
-//  Exercice 12.m
+//  Exercice 13.m
 //  ObjetiveC
 //
 //  Created by Steve Khalaam on 15/01/18.
 //  Copyright 2018 __MyCompanyName__. All rights reserved.
 //
 
-#import "Exercice 12.h"
-/*
+#import "Exercice 13.h"
+
 @implementation SampleClass
 
--(void) printBook:(struct Books) book {
+-(void) printBook:(struct Books *) book {
     NSLog(@"\n");
-    NSLog(@"title : %@\n", book.title);
-    NSLog(@"author : %@\n", book.author);
-    NSLog(@"subject : %@\n", book.subject);
-    NSLog(@"id : %d\n", book.id);
+    NSLog(@"title : %@\n", book->title);
+    NSLog(@"author : %@\n", book->author);
+    NSLog(@"subject : %@\n", book->subject);
+    NSLog(@"id : %d\n", book->id);
 }
 
 @end
@@ -36,9 +36,8 @@ int main() {
 	
 	SampleClass *sampleClass = [[SampleClass alloc] init];
 	
-	[sampleClass printBook: book1];
-	[sampleClass printBook: book2];
+	[sampleClass printBook:&book1];
+	[sampleClass printBook:&book2];
 	
 	return 0;
 }
-*/

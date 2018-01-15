@@ -1,5 +1,5 @@
 #import <Foundation/Foundation.h>
-
+/*
 @interface SampleClass : NSObject
 
 -(unichar *) printNameASCII:(NSString *) name;
@@ -35,3 +35,4 @@ int main(int argc, const char * argv[]){
     SampleClass *sampleObject = [[SampleClass alloc] init];
     [sampleObject getTotalMoyenne:[sampleObject printNameASCII:@"Adrian GARAY"]];
 }
+*/
