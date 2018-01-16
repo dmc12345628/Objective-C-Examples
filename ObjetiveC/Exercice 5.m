@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 5.h"
-/*
+
 struct RandomNumbersResult {
     double total;
     double avg;
@@ -103,14 +103,15 @@ struct RandomNumbersResult {
 @end
 
 int main() {
-	NSAutoreleasePool *pool = [[NSAutoreleasePool alloc] init];
+    @autoreleasepool {
 	
-	SampleClass *sampleClass = [[SampleClass alloc] init];
-	struct RandomNumbersResult *result = [sampleClass generateurNumerosRandom];
+        SampleClass *sampleClass = [[SampleClass alloc] init];
+        struct RandomNumbersResult *result = [sampleClass generateurNumerosRandom];
 	
-	NSLog(@"Total : %d", result->total);
-	
-	[pool drain];
+        NSLog(@"Total : %d", result->total);
+        
+    }
+    
 	return 0;
 }
-*/
+

@@ -17,7 +17,7 @@
     return codeASCII;
 }
 
--(void)getTotalMoyenne:(unichar *) ASCII{
+-(void)getTotalMoyenne:(unichar *) ASCII {
     int total = 0;
     double moyenne = 0;
     NSLog(@"%lu", sizeof(ASCII));
