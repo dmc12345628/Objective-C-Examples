@@ -8,27 +8,9 @@
 
 #import <Foundation/Foundation.h>
 /*
-@interface SampleClass : NSObject {
-	NSString *name;
-}
+@interface NSString(MyAdditions)
 
-- (void) setInternalID;
-- (NSString *) getExternalID;
-
-@end
-
-@interface SampleClass() {
-	NSString *internalID;
-}
-
-@end
-
-@implementation SampleClass
-
-- (void) setInternalID {
-	internalID = [NSString stringWithFormat:
-				  @"UNIQUEINTERNALKEY%dUNIQUEINTERNALKEY", arc4
-}
++ (NSString *) getCopyRightString;
 
 @end
 */

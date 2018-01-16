@@ -6,10 +6,22 @@
 //  Copyright 2018 __MyCompanyName__. All rights reserved.
 //
 
-#import "Exercice 20.h"
+#include "Exercice 20.h"
 /*
+@implementation NSString(MyAdditions)
 
-@implementation SampleClass()
++(NSString *) getCopyRightString {
+    return @"Copyright TutorialsPoint.com 2013";
+}
 
 @end
+
+int main() {
+    @autoreleasepool {
+        NSString *copyrightString = [NSString getCopyRightString];
+        NSLog(@"Accessing Category : %@", copyrightString);
+    }
+    
+    return 0;
+}
 */

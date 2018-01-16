@@ -18,6 +18,7 @@
 		23C08D042007C6580057A9D4 /* Exercice 5.m in Sources */ = {isa = PBXBuildFile; fileRef = 23C08D032007C6580057A9D4 /* Exercice 5.m */; };
 		23D554702007B3600090FC0A /* Exercice 6.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D5546F2007B3600090FC0A /* Exercice 6.m */; };
 		23D554752007B3600090FC0A /* Exercice 7.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D554742007B3600090FC0A /* Exercice 7.m */; };
+		23F607F1200DEA0400B38ECB /* Exercice 15.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F607F0200DEA0400B38ECB /* Exercice 15.m */; };
 		72AED44E200D314B00A6E42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AED44D200D314A00A6E42B /* Foundation.framework */; };
 		72AED453200D318F00A6E42B /* Exercice 20.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED452200D318F00A6E42B /* Exercice 20.m */; };
 		72AED458200D368900A6E42B /* Exercice 12.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED457200D368900A6E42B /* Exercice 12.m */; };
@@ -61,6 +62,8 @@
 		23D554712007B3600090FC0A /* Exercice 6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 6.h"; sourceTree = "<group>"; };
 		23D554742007B3600090FC0A /* Exercice 7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 7.m"; sourceTree = "<group>"; };
 		23D554762007B3600090FC0A /* Exercice 7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 7.h"; sourceTree = "<group>"; };
+		23F607EF200DEA0400B38ECB /* Exercice 15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 15.h"; sourceTree = "<group>"; };
+		23F607F0200DEA0400B38ECB /* Exercice 15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 15.m"; sourceTree = "<group>"; };
 		72AED44D200D314A00A6E42B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		72AED451200D318F00A6E42B /* Exercice 20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 20.h"; sourceTree = "<group>"; };
 		72AED452200D318F00A6E42B /* Exercice 20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 20.m"; sourceTree = "<group>"; };
@@ -104,6 +107,7 @@
 		23673FF81FE117A0006B0C68 /* ObjetiveC */ = {
 			isa = PBXGroup;
 			children = (
+				23F607F3200DEA1B00B38ECB /* Exercice 15 */,
 				72AED51E200D458500A6E42B /* Exercice 13 */,
 				72AED51D200D452100A6E42B /* Exercice 14 */,
 				72AED455200D367300A6E42B /* Exercice 12 */,
@@ -222,6 +226,15 @@
 			name = "Exercice 7";
 			sourceTree = "<group>";
 		};
+		23F607F3200DEA1B00B38ECB /* Exercice 15 */ = {
+			isa = PBXGroup;
+			children = (
+				23F607EF200DEA0400B38ECB /* Exercice 15.h */,
+				23F607F0200DEA0400B38ECB /* Exercice 15.m */,
+			);
+			name = "Exercice 15";
+			sourceTree = "<group>";
+		};
 		72AED450200D316100A6E42B /* Exercice 20 */ = {
 			isa = PBXGroup;
 			children = (
@@ -295,6 +308,7 @@
 			};
 			buildConfigurationList = 23673FF11FE117A0006B0C68 /* Build configuration list for PBXProject "ObjetiveC" */;
 			compatibilityVersion = "Xcode 3.1";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -320,6 +334,7 @@
 				23C08CFC2007B8600057A9D4 /* Exercice 10.m in Sources */,
 				23D554752007B3600090FC0A /* Exercice 7.m in Sources */,
 				237043FE2004C65700A1D242 /* Exercice 3.m in Sources */,
+				23F607F1200DEA0400B38ECB /* Exercice 15.m in Sources */,
 				23C08CF42007AE180057A9D4 /* Exercice 8.m in Sources */,
 				237043FA2004C2E400A1D242 /* Exercice 2.m in Sources */,
 				23C08D002007BE030057A9D4 /* Exercice 11.m in Sources */,
@@ -427,7 +442,9 @@
 		23673FFE1FE117A0006B0C68 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.12;
 			};
 			name = Debug;
 		};

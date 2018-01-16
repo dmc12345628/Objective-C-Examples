@@ -7,7 +7,7 @@
 //
 
 #import "Exercice 13.h"
-
+/*
 @implementation SampleClass
 
 -(void) printBook:(struct Books *) book {
@@ -41,3 +41,4 @@ int main() {
 	
 	return 0;
 }
+*/
