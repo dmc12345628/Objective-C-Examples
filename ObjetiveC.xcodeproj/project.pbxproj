@@ -19,6 +19,7 @@
 		23D554702007B3600090FC0A /* Exercice 6.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D5546F2007B3600090FC0A /* Exercice 6.m */; };
 		23D554752007B3600090FC0A /* Exercice 7.m in Sources */ = {isa = PBXBuildFile; fileRef = 23D554742007B3600090FC0A /* Exercice 7.m */; };
 		23F607F1200DEA0400B38ECB /* Exercice 15.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F607F0200DEA0400B38ECB /* Exercice 15.m */; };
+		23F6087A200E27FC00B38ECB /* Exercice 21.m in Sources */ = {isa = PBXBuildFile; fileRef = 23F60879200E27FC00B38ECB /* Exercice 21.m */; };
 		72AED44E200D314B00A6E42B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72AED44D200D314A00A6E42B /* Foundation.framework */; };
 		72AED453200D318F00A6E42B /* Exercice 20.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED452200D318F00A6E42B /* Exercice 20.m */; };
 		72AED458200D368900A6E42B /* Exercice 12.m in Sources */ = {isa = PBXBuildFile; fileRef = 72AED457200D368900A6E42B /* Exercice 12.m */; };
@@ -64,6 +65,8 @@
 		23D554762007B3600090FC0A /* Exercice 7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 7.h"; sourceTree = "<group>"; };
 		23F607EF200DEA0400B38ECB /* Exercice 15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 15.h"; sourceTree = "<group>"; };
 		23F607F0200DEA0400B38ECB /* Exercice 15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 15.m"; sourceTree = "<group>"; };
+		23F60879200E27FC00B38ECB /* Exercice 21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 21.m"; sourceTree = "<group>"; };
+		23F6087B200E280B00B38ECB /* Exercice 21.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Exercice 21.h"; sourceTree = "<group>"; };
 		72AED44D200D314A00A6E42B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		72AED451200D318F00A6E42B /* Exercice 20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 20.h"; sourceTree = "<group>"; };
 		72AED452200D318F00A6E42B /* Exercice 20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 20.m"; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 				237043FC2004C62C00A1D242 /* Exercice 3 */,
 				237043F82004C1FC00A1D242 /* Exercice 2 */,
 				237043F42004BF2600A1D242 /* Exercice 1 */,
+				23F6087C200E2A8F00B38ECB /* Exercice 21 */,
 			);
 			path = ObjetiveC;
 			sourceTree = "<group>";
@@ -235,6 +239,15 @@
 			name = "Exercice 15";
 			sourceTree = "<group>";
 		};
+		23F6087C200E2A8F00B38ECB /* Exercice 21 */ = {
+			isa = PBXGroup;
+			children = (
+				23F60879200E27FC00B38ECB /* Exercice 21.m */,
+				23F6087B200E280B00B38ECB /* Exercice 21.h */,
+			);
+			name = "Exercice 21";
+			sourceTree = "<group>";
+		};
 		72AED450200D316100A6E42B /* Exercice 20 */ = {
 			isa = PBXGroup;
 			children = (
@@ -340,6 +353,7 @@
 				23C08D002007BE030057A9D4 /* Exercice 11.m in Sources */,
 				23C08D042007C6580057A9D4 /* Exercice 5.m in Sources */,
 				237044022004C67600A1D242 /* Exercice 4.m in Sources */,
+				23F6087A200E27FC00B38ECB /* Exercice 21.m in Sources */,
 				72AED453200D318F00A6E42B /* Exercice 20.m in Sources */,
 				72AED458200D368900A6E42B /* Exercice 12.m in Sources */,
 				72AED51C200D451C00A6E42B /* Exercice 14.m in Sources */,
