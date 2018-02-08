@@ -7,7 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		42F7853C2027BD3000B8FD37 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7853B2027BD3000B8FD37 /* main.m */; };
+		4263916D202BB12000AF2C71 /* Exercice 23.m in Sources */ = {isa = PBXBuildFile; fileRef = 4263916C202BB12000AF2C71 /* Exercice 23.m */; };
+		42639170202BBB1B00AF2C71 /* Exercice 24.m in Sources */ = {isa = PBXBuildFile; fileRef = 4263916F202BBB1B00AF2C71 /* Exercice 24.m */; };
+		42639173202BBE3800AF2C71 /* Exercice 25.m in Sources */ = {isa = PBXBuildFile; fileRef = 42639171202BBE3700AF2C71 /* Exercice 25.m */; };
+		4263917A202BC92000AF2C71 /* Exercice 26.m in Sources */ = {isa = PBXBuildFile; fileRef = 42639176202BC91B00AF2C71 /* Exercice 26.m */; };
+		4263917B202BC92000AF2C71 /* Exercice 28.m in Sources */ = {isa = PBXBuildFile; fileRef = 42639178202BC91B00AF2C71 /* Exercice 28.m */; };
+		4263917C202BC92000AF2C71 /* Exercice 27.m in Sources */ = {isa = PBXBuildFile; fileRef = 42639179202BC91F00AF2C71 /* Exercice 27.m */; };
+		42D249DA202B268C0031949D /* MathClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D249D9202B268C0031949D /* MathClass.m */; };
+		42E6D7392029049600BE23EC /* Exercice 16.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6D7382029049600BE23EC /* Exercice 16.m */; };
+		42E6D73C202A616700BE23EC /* Exercice 17.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6D73B202A616700BE23EC /* Exercice 17.m */; };
+		42E6D73F202A6B5A00BE23EC /* Exercice 18.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6D73D202A6B5A00BE23EC /* Exercice 18.m */; };
+		42E6D742202AC68900BE23EC /* Exercice 19.m in Sources */ = {isa = PBXBuildFile; fileRef = 42E6D741202AC68800BE23EC /* Exercice 19.m */; };
+		42F785662027BDA500B8FD37 /* Exercice 13.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785422027BD9500B8FD37 /* Exercice 13.m */; };
+		42F785672027BDA500B8FD37 /* Exercice 21.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785442027BD9500B8FD37 /* Exercice 21.m */; };
+		42F785682027BDA500B8FD37 /* Exercice 9.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785462027BD9600B8FD37 /* Exercice 9.m */; };
+		42F785692027BDA500B8FD37 /* Exercice 8.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785472027BD9600B8FD37 /* Exercice 8.m */; };
+		42F7856A2027BDA500B8FD37 /* Exercice 6.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785492027BD9700B8FD37 /* Exercice 6.m */; };
+		42F7856B2027BDA500B8FD37 /* Exercice 10.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7854D2027BD9900B8FD37 /* Exercice 10.m */; };
+		42F7856C2027BDA500B8FD37 /* Exercice 2.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7854E2027BD9900B8FD37 /* Exercice 2.m */; };
+		42F7856D2027BDA500B8FD37 /* Exercice 15.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785502027BD9900B8FD37 /* Exercice 15.m */; };
+		42F7856E2027BDA500B8FD37 /* Exercice 20.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785522027BD9A00B8FD37 /* Exercice 20.m */; };
+		42F7856F2027BDA500B8FD37 /* Exercice 22.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785532027BD9B00B8FD37 /* Exercice 22.m */; };
+		42F785702027BDA500B8FD37 /* Exercice 5.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785572027BD9C00B8FD37 /* Exercice 5.m */; };
+		42F785712027BDA500B8FD37 /* Exercice 3.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785582027BD9D00B8FD37 /* Exercice 3.m */; };
+		42F785722027BDA500B8FD37 /* Exercice 7.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785592027BD9D00B8FD37 /* Exercice 7.m */; };
+		42F785732027BDA500B8FD37 /* Exercice 11.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7855C2027BD9E00B8FD37 /* Exercice 11.m */; };
+		42F785742027BDA500B8FD37 /* Exercice 1.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F7855E2027BD9F00B8FD37 /* Exercice 1.m */; };
+		42F785752027BDA500B8FD37 /* Exercice 4.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785602027BDA000B8FD37 /* Exercice 4.m */; };
+		42F785762027BDA500B8FD37 /* Exercice 14.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785622027BDA200B8FD37 /* Exercice 14.m */; };
+		42F785772027BDA500B8FD37 /* Exercice 12.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F785632027BDA200B8FD37 /* Exercice 12.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +51,65 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		4263916B202BB11F00AF2C71 /* Exercice 23.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 23.h"; sourceTree = "<group>"; };
+		4263916C202BB12000AF2C71 /* Exercice 23.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 23.m"; sourceTree = "<group>"; };
+		4263916E202BBB1A00AF2C71 /* Exercice 24.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 24.h"; sourceTree = "<group>"; };
+		4263916F202BBB1B00AF2C71 /* Exercice 24.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 24.m"; sourceTree = "<group>"; };
+		42639171202BBE3700AF2C71 /* Exercice 25.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 25.m"; sourceTree = "<group>"; };
+		42639172202BBE3700AF2C71 /* Exercice 25.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 25.h"; sourceTree = "<group>"; };
+		42639174202BC91A00AF2C71 /* Exercice 26.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 26.h"; sourceTree = "<group>"; };
+		42639175202BC91B00AF2C71 /* Exercice 28.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 28.h"; sourceTree = "<group>"; };
+		42639176202BC91B00AF2C71 /* Exercice 26.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 26.m"; sourceTree = "<group>"; };
+		42639177202BC91B00AF2C71 /* Exercice 27.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 27.h"; sourceTree = "<group>"; };
+		42639178202BC91B00AF2C71 /* Exercice 28.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 28.m"; sourceTree = "<group>"; };
+		42639179202BC91F00AF2C71 /* Exercice 27.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 27.m"; sourceTree = "<group>"; };
+		42D249D8202B268C0031949D /* MathClass.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MathClass.h; sourceTree = "<group>"; };
+		42D249D9202B268C0031949D /* MathClass.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MathClass.m; sourceTree = "<group>"; };
+		42E6D7372029049500BE23EC /* Exercice 16.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 16.h"; sourceTree = "<group>"; };
+		42E6D7382029049600BE23EC /* Exercice 16.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 16.m"; sourceTree = "<group>"; };
+		42E6D73A202A616700BE23EC /* Exercice 17.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 17.h"; sourceTree = "<group>"; };
+		42E6D73B202A616700BE23EC /* Exercice 17.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 17.m"; sourceTree = "<group>"; };
+		42E6D73D202A6B5A00BE23EC /* Exercice 18.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 18.m"; sourceTree = "<group>"; };
+		42E6D73E202A6B5A00BE23EC /* Exercice 18.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 18.h"; sourceTree = "<group>"; };
+		42E6D740202AC68800BE23EC /* Exercice 19.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 19.h"; sourceTree = "<group>"; };
+		42E6D741202AC68800BE23EC /* Exercice 19.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 19.m"; sourceTree = "<group>"; };
 		42F785382027BD3000B8FD37 /* Objective-C-Examples */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Objective-C-Examples"; sourceTree = BUILT_PRODUCTS_DIR; };
-		42F7853B2027BD3000B8FD37 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		42F785422027BD9500B8FD37 /* Exercice 13.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 13.m"; sourceTree = "<group>"; };
+		42F785432027BD9500B8FD37 /* Exercice 4.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 4.h"; sourceTree = "<group>"; };
+		42F785442027BD9500B8FD37 /* Exercice 21.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 21.m"; sourceTree = "<group>"; };
+		42F785452027BD9600B8FD37 /* Exercice 2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 2.h"; sourceTree = "<group>"; };
+		42F785462027BD9600B8FD37 /* Exercice 9.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 9.m"; sourceTree = "<group>"; };
+		42F785472027BD9600B8FD37 /* Exercice 8.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 8.m"; sourceTree = "<group>"; };
+		42F785482027BD9700B8FD37 /* Exercice 11.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 11.h"; sourceTree = "<group>"; };
+		42F785492027BD9700B8FD37 /* Exercice 6.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 6.m"; sourceTree = "<group>"; };
+		42F7854A2027BD9700B8FD37 /* Exercice 20.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 20.h"; sourceTree = "<group>"; };
+		42F7854B2027BD9800B8FD37 /* Exercice 9.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 9.h"; sourceTree = "<group>"; };
+		42F7854C2027BD9800B8FD37 /* Exercice 13.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 13.h"; sourceTree = "<group>"; };
+		42F7854D2027BD9900B8FD37 /* Exercice 10.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 10.m"; sourceTree = "<group>"; };
+		42F7854E2027BD9900B8FD37 /* Exercice 2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 2.m"; sourceTree = "<group>"; };
+		42F7854F2027BD9900B8FD37 /* Exercice 3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 3.h"; sourceTree = "<group>"; };
+		42F785502027BD9900B8FD37 /* Exercice 15.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 15.m"; sourceTree = "<group>"; };
+		42F785512027BD9A00B8FD37 /* Exercice 15.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 15.h"; sourceTree = "<group>"; };
+		42F785522027BD9A00B8FD37 /* Exercice 20.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 20.m"; sourceTree = "<group>"; };
+		42F785532027BD9B00B8FD37 /* Exercice 22.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 22.m"; sourceTree = "<group>"; };
+		42F785542027BD9B00B8FD37 /* Exercice 22.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 22.h"; sourceTree = "<group>"; };
+		42F785552027BD9B00B8FD37 /* Exercice 8.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 8.h"; sourceTree = "<group>"; };
+		42F785562027BD9B00B8FD37 /* Exercice 1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 1.h"; sourceTree = "<group>"; };
+		42F785572027BD9C00B8FD37 /* Exercice 5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 5.m"; sourceTree = "<group>"; };
+		42F785582027BD9D00B8FD37 /* Exercice 3.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 3.m"; sourceTree = "<group>"; };
+		42F785592027BD9D00B8FD37 /* Exercice 7.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 7.m"; sourceTree = "<group>"; };
+		42F7855A2027BD9D00B8FD37 /* Exercice 6.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 6.h"; sourceTree = "<group>"; };
+		42F7855B2027BD9E00B8FD37 /* Exercice 21.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 21.h"; sourceTree = "<group>"; };
+		42F7855C2027BD9E00B8FD37 /* Exercice 11.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 11.m"; sourceTree = "<group>"; };
+		42F7855D2027BD9F00B8FD37 /* Exercice 12.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 12.h"; sourceTree = "<group>"; };
+		42F7855E2027BD9F00B8FD37 /* Exercice 1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 1.m"; sourceTree = "<group>"; };
+		42F7855F2027BDA000B8FD37 /* Exercice 5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 5.h"; sourceTree = "<group>"; };
+		42F785602027BDA000B8FD37 /* Exercice 4.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 4.m"; sourceTree = "<group>"; };
+		42F785612027BDA100B8FD37 /* Exercice 10.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 10.h"; sourceTree = "<group>"; };
+		42F785622027BDA200B8FD37 /* Exercice 14.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 14.m"; sourceTree = "<group>"; };
+		42F785632027BDA200B8FD37 /* Exercice 12.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Exercice 12.m"; sourceTree = "<group>"; };
+		42F785642027BDA300B8FD37 /* Exercice 7.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 7.h"; sourceTree = "<group>"; };
+		42F785652027BDA400B8FD37 /* Exercice 14.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Exercice 14.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +142,64 @@
 		42F7853A2027BD3000B8FD37 /* Objective-C-Examples */ = {
 			isa = PBXGroup;
 			children = (
-				42F7853B2027BD3000B8FD37 /* main.m */,
+				42F785562027BD9B00B8FD37 /* Exercice 1.h */,
+				42F7855E2027BD9F00B8FD37 /* Exercice 1.m */,
+				42F785452027BD9600B8FD37 /* Exercice 2.h */,
+				42F7854E2027BD9900B8FD37 /* Exercice 2.m */,
+				42F7854F2027BD9900B8FD37 /* Exercice 3.h */,
+				42F785582027BD9D00B8FD37 /* Exercice 3.m */,
+				42F785432027BD9500B8FD37 /* Exercice 4.h */,
+				42F785602027BDA000B8FD37 /* Exercice 4.m */,
+				42F7855F2027BDA000B8FD37 /* Exercice 5.h */,
+				42F785572027BD9C00B8FD37 /* Exercice 5.m */,
+				42F7855A2027BD9D00B8FD37 /* Exercice 6.h */,
+				42F785492027BD9700B8FD37 /* Exercice 6.m */,
+				42F785642027BDA300B8FD37 /* Exercice 7.h */,
+				42F785592027BD9D00B8FD37 /* Exercice 7.m */,
+				42F785552027BD9B00B8FD37 /* Exercice 8.h */,
+				42F785472027BD9600B8FD37 /* Exercice 8.m */,
+				42F7854B2027BD9800B8FD37 /* Exercice 9.h */,
+				42F785462027BD9600B8FD37 /* Exercice 9.m */,
+				42F785612027BDA100B8FD37 /* Exercice 10.h */,
+				42F7854D2027BD9900B8FD37 /* Exercice 10.m */,
+				42F785482027BD9700B8FD37 /* Exercice 11.h */,
+				42F7855C2027BD9E00B8FD37 /* Exercice 11.m */,
+				42F7855D2027BD9F00B8FD37 /* Exercice 12.h */,
+				42F785632027BDA200B8FD37 /* Exercice 12.m */,
+				42F7854C2027BD9800B8FD37 /* Exercice 13.h */,
+				42F785422027BD9500B8FD37 /* Exercice 13.m */,
+				42F785652027BDA400B8FD37 /* Exercice 14.h */,
+				42F785622027BDA200B8FD37 /* Exercice 14.m */,
+				42F785512027BD9A00B8FD37 /* Exercice 15.h */,
+				42F785502027BD9900B8FD37 /* Exercice 15.m */,
+				42E6D7372029049500BE23EC /* Exercice 16.h */,
+				42E6D7382029049600BE23EC /* Exercice 16.m */,
+				42E6D73A202A616700BE23EC /* Exercice 17.h */,
+				42E6D73B202A616700BE23EC /* Exercice 17.m */,
+				42E6D73E202A6B5A00BE23EC /* Exercice 18.h */,
+				42E6D73D202A6B5A00BE23EC /* Exercice 18.m */,
+				42E6D740202AC68800BE23EC /* Exercice 19.h */,
+				42E6D741202AC68800BE23EC /* Exercice 19.m */,
+				42F7854A2027BD9700B8FD37 /* Exercice 20.h */,
+				42F785522027BD9A00B8FD37 /* Exercice 20.m */,
+				42F7855B2027BD9E00B8FD37 /* Exercice 21.h */,
+				42F785442027BD9500B8FD37 /* Exercice 21.m */,
+				42F785542027BD9B00B8FD37 /* Exercice 22.h */,
+				42F785532027BD9B00B8FD37 /* Exercice 22.m */,
+				4263916B202BB11F00AF2C71 /* Exercice 23.h */,
+				4263916C202BB12000AF2C71 /* Exercice 23.m */,
+				4263916E202BBB1A00AF2C71 /* Exercice 24.h */,
+				4263916F202BBB1B00AF2C71 /* Exercice 24.m */,
+				42639172202BBE3700AF2C71 /* Exercice 25.h */,
+				42639171202BBE3700AF2C71 /* Exercice 25.m */,
+				42639174202BC91A00AF2C71 /* Exercice 26.h */,
+				42639176202BC91B00AF2C71 /* Exercice 26.m */,
+				42639177202BC91B00AF2C71 /* Exercice 27.h */,
+				42639179202BC91F00AF2C71 /* Exercice 27.m */,
+				42639175202BC91B00AF2C71 /* Exercice 28.h */,
+				42639178202BC91B00AF2C71 /* Exercice 28.m */,
+				42D249D8202B268C0031949D /* MathClass.h */,
+				42D249D9202B268C0031949D /* MathClass.m */,
 			);
 			path = "Objective-C-Examples";
 			sourceTree = "<group>";
@@ -119,7 +261,35 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				42F7853C2027BD3000B8FD37 /* main.m in Sources */,
+				42E6D73C202A616700BE23EC /* Exercice 17.m in Sources */,
+				42F785742027BDA500B8FD37 /* Exercice 1.m in Sources */,
+				42F7856E2027BDA500B8FD37 /* Exercice 20.m in Sources */,
+				42E6D73F202A6B5A00BE23EC /* Exercice 18.m in Sources */,
+				42E6D7392029049600BE23EC /* Exercice 16.m in Sources */,
+				42F7856D2027BDA500B8FD37 /* Exercice 15.m in Sources */,
+				42F785692027BDA500B8FD37 /* Exercice 8.m in Sources */,
+				42F785732027BDA500B8FD37 /* Exercice 11.m in Sources */,
+				42F7856C2027BDA500B8FD37 /* Exercice 2.m in Sources */,
+				42F7856A2027BDA500B8FD37 /* Exercice 6.m in Sources */,
+				42F785682027BDA500B8FD37 /* Exercice 9.m in Sources */,
+				4263917C202BC92000AF2C71 /* Exercice 27.m in Sources */,
+				42F785712027BDA500B8FD37 /* Exercice 3.m in Sources */,
+				42E6D742202AC68900BE23EC /* Exercice 19.m in Sources */,
+				42F785672027BDA500B8FD37 /* Exercice 21.m in Sources */,
+				4263917B202BC92000AF2C71 /* Exercice 28.m in Sources */,
+				42F785662027BDA500B8FD37 /* Exercice 13.m in Sources */,
+				42F785702027BDA500B8FD37 /* Exercice 5.m in Sources */,
+				42D249DA202B268C0031949D /* MathClass.m in Sources */,
+				42F785722027BDA500B8FD37 /* Exercice 7.m in Sources */,
+				4263917A202BC92000AF2C71 /* Exercice 26.m in Sources */,
+				42F7856B2027BDA500B8FD37 /* Exercice 10.m in Sources */,
+				42639173202BBE3800AF2C71 /* Exercice 25.m in Sources */,
+				42F7856F2027BDA500B8FD37 /* Exercice 22.m in Sources */,
+				42F785762027BDA500B8FD37 /* Exercice 14.m in Sources */,
+				4263916D202BB12000AF2C71 /* Exercice 23.m in Sources */,
+				42F785752027BDA500B8FD37 /* Exercice 4.m in Sources */,
+				42639170202BBB1B00AF2C71 /* Exercice 24.m in Sources */,
+				42F785772027BDA500B8FD37 /* Exercice 12.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
