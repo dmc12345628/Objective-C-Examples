@@ -7,7 +7,7 @@
 //
 
 #include "Exercice 28.h"
-/*
+
 int main() {
     int i = 17;
     char c = 'c';
@@ -17,4 +17,4 @@ int main() {
     NSLog(@"Value of sum : %f\n", sum);
     return 0;
 }
-*/
+
